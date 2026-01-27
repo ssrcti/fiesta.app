@@ -1,0 +1,150 @@
+:root {
+    --primary: #6366f1;
+    --text: #1f2937;
+    --light: #f9fafb;
+    --gray: #6b7280;
+    --border: #e5e7eb;
+    --bg-white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.7;
+    color: var(--text);
+    background: var(--light);
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px 40px 20px;
+}
+
+.lang-jump {
+    background-color: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 12px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin: 0 -20px 40px -20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    font-weight: 500;
+}
+
+.lang-jump a {
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.lang-jump a:hover {
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 48px;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 12px;
+}
+
+.subtitle {
+    color: var(--gray);
+    font-size: 1.1rem;
+}
+
+.last-update {
+    color: var(--gray);
+    font-size: 0.95rem;
+    margin-top: 8px;
+}
+
+section {
+    margin-bottom: 48px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #374151;
+    margin: 32px 0 16px;
+    border-left: 4px solid var(--primary);
+    padding-left: 12px;
+}
+
+h3 {
+    font-size: 1.25rem;
+    margin: 24px 0 12px;
+    color: #4b5563;
+}
+
+p, li {
+    margin-bottom: 1.1em;
+    font-size: 1.05rem;
+}
+
+ul, ol {
+    margin-left: 1.8em;
+    margin-bottom: 1.2em;
+}
+
+strong {
+    color: #111827;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contact, .deletion-box {
+    background: var(--bg-white);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 32px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.deletion-box {
+    border-left: 4px solid #ef4444;
+}
+
+.language-divider {
+    margin: 80px 0;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+}
+
+footer {
+    text-align: center;
+    margin-top: 64px;
+    padding-top: 32px;
+    border-top: 1px solid var(--border);
+    color: var(--gray);
+    font-size: 0.95rem;
+}
+
+@media (max-width: 600px) {
+    body { padding: 0 16px 24px 16px; }
+    h1 { font-size: 1.9rem; }
+    .lang-jump { margin: 0 -16px 30px -16px; }
+}
