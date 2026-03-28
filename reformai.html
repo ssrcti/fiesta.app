@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy & Account Deletion Policy - ReformAI</title>
+  <meta
+          name="description"
+          content="Privacy Policy and Account Deletion Policy for ReformAI in English and Portuguese."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+          href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet"
+  />
+
+  <style>
+    :root {
+      --bg: #f6f1e8;
+      --paper: rgba(255, 252, 246, 0.92);
+      --text: #1f1a17;
+      --muted: #6f6258;
+      --line: rgba(76, 58, 45, 0.14);
+      --brand: #b5542f;
+      --brand-dark: #7f381d;
+      --accent: #e8c9a8;
+      --box: #fff3e3;
+      --shadow: 0 20px 60px rgba(80, 49, 29, 0.12);
+      --radius: 24px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Manrope", sans-serif;
+      color: var(--text);
+      background:
+              radial-gradient(circle at top left, rgba(229, 179, 122, 0.35), transparent 28%),
+              radial-gradient(circle at bottom right, rgba(181, 84, 47, 0.18), transparent 30%),
+              linear-gradient(180deg, #f8f3ea 0%, #f2eadf 100%);
+      line-height: 1.7;
+    }
+
+    .page-shell {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 56px;
+    }
+
+    .lang-jump {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 24px;
+    }
+
+    .lang-jump a {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 18px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.72);
+      color: var(--brand-dark);
+      text-decoration: none;
+      font-weight: 700;
+      border: 1px solid rgba(127, 56, 29, 0.12);
+      box-shadow: 0 10px 30px rgba(88, 54, 31, 0.08);
+      backdrop-filter: blur(10px);
+    }
+
+    .policy-card {
+      background: var(--paper);
+      border: 1px solid rgba(76, 58, 45, 0.08);
+      box-shadow: var(--shadow);
+      border-radius: calc(var(--radius) + 4px);
+      overflow: hidden;
+      margin-bottom: 28px;
+      backdrop-filter: blur(10px);
+    }
+
+    .hero {
+      padding: 40px 28px 26px;
+      background:
+              linear-gradient(135deg, rgba(181, 84, 47, 0.08), rgba(232, 201, 168, 0.18)),
+              linear-gradient(180deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+      border-bottom: 1px solid var(--line);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 8px 12px;
+      background: rgba(181, 84, 47, 0.1);
+      color: var(--brand-dark);
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 18px 0 10px;
+      font-size: clamp(2rem, 4vw, 3.4rem);
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+    }
+
+    .subtitle {
+      font-size: 1.08rem;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .last-update {
+      margin-top: 10px;
+      color: var(--brand-dark);
+      font-weight: 700;
+      font-size: 0.98rem;
+    }
+
+    .content {
+      padding: 10px 28px 30px;
+    }
+
+    section {
+      padding: 22px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    section:last-child {
+      border-bottom: 0;
+      padding-bottom: 4px;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.35rem;
+      letter-spacing: -0.02em;
+    }
+
+    h3 {
+      margin: 18px 0 10px;
+      font-size: 1rem;
+      color: var(--brand-dark);
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    ul,
+    ol {
+      margin: 0;
+      padding-left: 22px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    .notice {
+      padding: 18px 18px 18px 20px;
+      border-radius: 18px;
+      background: var(--box);
+      border: 1px solid rgba(181, 84, 47, 0.14);
+    }
+
+    .notice strong {
+      color: var(--brand-dark);
+    }
+
+    .divider {
+      height: 1px;
+      border: 0;
+      background: linear-gradient(90deg, transparent, rgba(127, 56, 29, 0.25), transparent);
+      margin: 10px 0 28px;
+    }
+
+    a {
+      color: var(--brand-dark);
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.95rem;
+      padding: 8px 10px 24px;
+    }
+
+    @media (max-width: 720px) {
+      .page-shell {
+        width: min(100% - 20px, 1120px);
+        padding-top: 18px;
+      }
+
+      .hero,
+      .content {
+        padding-left: 18px;
+        padding-right: 18px;
+      }
+
+      section {
+        padding: 18px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="page-shell">
+  <div class="lang-jump">
+    <a href="#pt-version">🇧🇷 Read in Portuguese (Brazil)</a>
+  </div>
+
+  <main id="en-version" class="policy-card">
+    <header class="hero">
+      <span class="eyebrow">ReformAI</span>
+      <h1>Privacy Policy & Account Deletion Policy</h1>
+      <div class="subtitle">
+        This policy explains how ReformAI may collect, use, monitor, retain, and process user data.
+      </div>
+      <div class="last-update">Last Updated: March 27, 2026</div>
+    </header>
+
+    <div class="content">
+      <section>
+        <p>
+          This Privacy Policy applies to <strong>ReformAI</strong> ("we", "our", or "the App"). By
+          accessing or using ReformAI, you acknowledge that your information may be collected,
+          stored, tracked, and processed as described in this policy.
+        </p>
+      </section>
+
+      <section>
+        <h2>1. Information We May Collect</h2>
+
+        <h3>1.1 Information provided by users</h3>
+        <ul>
+          <li><strong>Account Data:</strong> name, email address, username, profile image, and other registration details.</li>
+          <li><strong>Project Content:</strong> documents, images, text, prompts, files, notes, and any content submitted to the App.</li>
+          <li><strong>Support and Communication Data:</strong> information sent when contacting us by email or through support channels.</li>
+          <li><strong>Collaboration Data:</strong> invitation records, shared project access, editor actions, and collaboration history.</li>
+        </ul>
+
+        <h3>1.2 Information collected automatically</h3>
+        <ul>
+          <li><strong>Usage Data:</strong> pages viewed, features used, clicks, interactions, session duration, and navigation behavior.</li>
+          <li><strong>Device and Technical Data:</strong> device model, operating system, app version, browser type, identifiers, IP address, and crash logs.</li>
+          <li><strong>Activity Tracking Data:</strong> actions performed inside the App, project edits, collaboration events, and usage patterns for security, analytics, and service improvement.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>2. How We May Use Data</h2>
+        <ul>
+          <li>To provide, operate, maintain, and improve ReformAI.</li>
+          <li>To authenticate users and manage accounts, invitations, and collaborative access.</li>
+          <li>To monitor activity, investigate misuse, improve performance, and protect platform integrity.</li>
+          <li>To communicate with users about support requests, service updates, and important notices.</li>
+          <li>To analyze usage trends, feature adoption, and operational metrics.</li>
+          <li>To comply with legal, regulatory, contractual, or security obligations when applicable.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>3. Tracking and Monitoring</h2>
+        <p>
+          ReformAI may track user activities within the App, including interactions, project
+          changes, invited-user actions, navigation events, and operational logs. This tracking
+          may be used for analytics, fraud prevention, service reliability, auditing, and product
+          improvement.
+        </p>
+      </section>
+
+      <section>
+        <h2>4. User Content, Retention, and Deletion Limitations</h2>
+        <div class="notice">
+          <p>
+            <strong>No responsibility for user-deleted data:</strong> ReformAI is not responsible
+            for restoring or recovering data, documents, images, or other content deleted by users.
+          </p>
+          <p>
+            <strong>No guarantee of permanent deletion without formal request:</strong> deleting
+            documents, images, or other content inside the App does not guarantee immediate or
+            permanent deletion from backups, logs, mirrored systems, or retained storage layers.
+            Permanent deletion requests must be formally submitted by email to
+            <a href="mailto:ssrc.tic@gmail.com">ssrc.tic@gmail.com</a>.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>5. Invited Users and Shared Editing</h2>
+        <p>
+          ReformAI may allow users to invite other people to view or edit project content. By
+          granting access to invited users, you acknowledge and accept the risks associated with
+          collaborative editing.
+        </p>
+        <p>
+          ReformAI does <strong>not</strong> guarantee the restoration or recovery of data that is
+          changed, overwritten, or deleted by users who were invited to edit project content.
+        </p>
+      </section>
+
+      <section>
+        <h2>6. Account Deletion Policy</h2>
+        <p>
+          Users may request account deletion only through a formal email request sent to
+          <a href="mailto:ssrc.tic@gmail.com">ssrc.tic@gmail.com</a>.
+        </p>
+
+        <h3>How to request account deletion</h3>
+        <ol>
+          <li>Send an email with the subject line <strong>"Account Deletion Request"</strong>.</li>
+          <li>Include the registered email address and sufficient information to identify the account.</li>
+        </ol>
+
+        <h3>Deletion process</h3>
+        <ul>
+          <li>Once validated, the account will enter a deletion process.</li>
+          <li>The deletion process may take up to <strong>6 months</strong> to be completed.</li>
+          <li>During this period, some data may remain retained in backups, logs, legal records, security systems, or technical environments.</li>
+          <li>Formal deletion by email is also required for requests involving permanent removal of uploaded documents and images.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>7. Third-Party Services</h2>
+        <p>
+          We may use third-party providers for infrastructure, hosting, analytics, authentication,
+          storage, communications, or support. These providers may process data on our behalf as
+          necessary for service operation.
+        </p>
+      </section>
+
+      <section>
+        <h2>8. Security</h2>
+        <p>
+          We may adopt reasonable administrative, technical, and organizational measures to protect
+          user data. However, no system or method of transmission or storage is completely secure,
+          and we cannot guarantee absolute security or uninterrupted recoverability of stored data.
+        </p>
+      </section>
+
+      <section>
+        <h2>9. Contact</h2>
+        <p>
+          If you have questions about this policy or need to submit a formal deletion request,
+          contact us at:
+        </p>
+        <p><strong>Email:</strong> <a href="mailto:ssrc.tic@gmail.com">ssrc.tic@gmail.com</a></p>
+      </section>
+    </div>
+  </main>
+
+  <hr class="divider" />
+
+  <main id="pt-version" class="policy-card">
+    <header class="hero">
+      <span class="eyebrow">ReformAI</span>
+      <h1>Política de Privacidade e Exclusão de Conta</h1>
+      <div class="subtitle">
+        Esta política explica como o ReformAI pode coletar, usar, monitorar, reter e processar dados dos usuários.
+      </div>
+      <div class="last-update">Última atualização: 27 de março de 2026</div>
+    </header>
+
+    <div class="content">
+      <section>
+        <p>
+          Esta Política de Privacidade se aplica ao <strong>ReformAI</strong> ("nós", "nosso" ou
+          "o App"). Ao acessar ou utilizar o ReformAI, você reconhece que suas informações poderão
+          ser coletadas, armazenadas, rastreadas e processadas conforme descrito nesta política.
+        </p>
+      </section>
+
+      <section>
+        <h2>1. Informações que Podemos Coletar</h2>
+
+        <h3>1.1 Informações fornecidas pelos usuários</h3>
+        <ul>
+          <li><strong>Dados da Conta:</strong> nome, endereço de e-mail, nome de usuário, imagem de perfil e outros dados de cadastro.</li>
+          <li><strong>Conteúdo de Projetos:</strong> documentos, imagens, textos, prompts, arquivos, anotações e qualquer conteúdo enviado ao App.</li>
+          <li><strong>Dados de Suporte e Comunicação:</strong> informações enviadas quando você entra em contato conosco por e-mail ou canais de suporte.</li>
+          <li><strong>Dados de Colaboração:</strong> registros de convites, acessos compartilhados a projetos, ações de editores e histórico de colaboração.</li>
+        </ul>
+
+        <h3>1.2 Informações coletadas automaticamente</h3>
+        <ul>
+          <li><strong>Dados de Uso:</strong> páginas visualizadas, recursos utilizados, cliques, interações, duração de sessão e comportamento de navegação.</li>
+          <li><strong>Dados Técnicos e do Dispositivo:</strong> modelo do dispositivo, sistema operacional, versão do aplicativo, tipo de navegador, identificadores, endereço IP e logs de falha.</li>
+          <li><strong>Dados de Rastreamento de Atividades:</strong> ações executadas dentro do App, edições em projetos, eventos de colaboração e padrões de uso para segurança, analytics e melhoria do serviço.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>2. Como Podemos Utilizar os Dados</h2>
+        <ul>
+          <li>Para fornecer, operar, manter e melhorar o ReformAI.</li>
+          <li>Para autenticar usuários e gerenciar contas, convites e acessos colaborativos.</li>
+          <li>Para monitorar atividades, investigar uso indevido, melhorar desempenho e proteger a integridade da plataforma.</li>
+          <li>Para nos comunicarmos com os usuários sobre suporte, atualizações do serviço e avisos importantes.</li>
+          <li>Para analisar tendências de uso, adoção de funcionalidades e métricas operacionais.</li>
+          <li>Para cumprir obrigações legais, regulatórias, contratuais ou de segurança, quando aplicável.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>3. Rastreamento e Monitoramento</h2>
+        <p>
+          O ReformAI poderá rastrear as atividades dos usuários dentro do App, incluindo
+          interações, alterações em projetos, ações de usuários convidados, eventos de navegação e
+          logs operacionais. Esse rastreamento poderá ser utilizado para analytics, prevenção a
+          fraudes, confiabilidade do serviço, auditoria e melhoria do produto.
+        </p>
+      </section>
+
+      <section>
+        <h2>4. Conteúdo do Usuário, Retenção e Limitações de Exclusão</h2>
+        <div class="notice">
+          <p>
+            <strong>Sem responsabilidade por dados excluídos pelo usuário:</strong> o ReformAI não
+            se responsabiliza por restaurar ou recuperar dados, documentos, imagens ou outros
+            conteúdos excluídos pelos próprios usuários.
+          </p>
+          <p>
+            <strong>Sem garantia de exclusão permanente sem solicitação formal:</strong> excluir
+            documentos, imagens ou outros conteúdos dentro do App não garante sua exclusão imediata
+            ou permanente de backups, logs, sistemas espelhados ou camadas de retenção. Solicitações
+            de exclusão permanente devem ser formalizadas por e-mail para
+            <a href="mailto:ssrc.tic@gmail.com">ssrc.tic@gmail.com</a>.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>5. Usuários Convidados e Edição Compartilhada</h2>
+        <p>
+          O ReformAI pode permitir que usuários convidem outras pessoas para visualizar ou editar o
+          conteúdo de projetos. Ao conceder esse acesso, você reconhece e aceita os riscos
+          associados à edição colaborativa.
+        </p>
+        <p>
+          O ReformAI <strong>não</strong> garante a restauração ou recuperação de dados que forem
+          alterados, sobrescritos ou excluídos por pessoas convidadas para editar o conteúdo dos
+          projetos.
+        </p>
+      </section>
+
+      <section>
+        <h2>6. Política de Exclusão de Conta</h2>
+        <p>
+          Os usuários poderão solicitar a exclusão da conta apenas por meio de pedido formal enviado
+          para <a href="mailto:ssrc.tic@gmail.com">ssrc.tic@gmail.com</a>.
+        </p>
+
+        <h3>Como solicitar a exclusão da conta</h3>
+        <ol>
+          <li>Envie um e-mail com o assunto <strong>"Solicitação de Exclusão de Conta"</strong>.</li>
+          <li>Informe o e-mail cadastrado e dados suficientes para identificação da conta.</li>
+        </ol>
+
+        <h3>Processo de exclusão</h3>
+        <ul>
+          <li>Após a validação, a conta entrará em processo de exclusão.</li>
+          <li>O processo de exclusão poderá levar até <strong>6 meses</strong> para ser concluído.</li>
+          <li>Durante esse período, alguns dados poderão permanecer retidos em backups, logs, registros legais, sistemas de segurança ou ambientes técnicos.</li>
+          <li>A exclusão permanente de documentos e imagens enviados também depende de solicitação formal por e-mail.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>7. Serviços de Terceiros</h2>
+        <p>
+          Podemos utilizar prestadores de serviços terceirizados para infraestrutura, hospedagem,
+          analytics, autenticação, armazenamento, comunicações ou suporte. Esses prestadores podem
+          processar dados em nosso nome na medida necessária para a operação do serviço.
+        </p>
+      </section>
+
+      <section>
+        <h2>8. Segurança</h2>
+        <p>
+          Podemos adotar medidas administrativas, técnicas e organizacionais razoáveis para proteger
+          os dados dos usuários. Ainda assim, nenhum sistema ou método de transmissão ou
+          armazenamento é totalmente seguro, e não podemos garantir segurança absoluta nem a
+          recuperabilidade ininterrupta dos dados armazenados.
+        </p>
+      </section>
+
+      <section>
+        <h2>9. Contato</h2>
+        <p>
+          Se você tiver dúvidas sobre esta política ou precisar formalizar uma solicitação de
+          exclusão, entre em contato por:
+        </p>
+        <p><strong>E-mail:</strong> <a href="mailto:ssrc.tic@gmail.com">ssrc.tic@gmail.com</a></p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 ReformAI. All rights reserved. / Todos os direitos reservados.</p>
+  </footer>
+</div>
+</body>
+</html>
